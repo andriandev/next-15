@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: var(--font-poppins);
+}
+
+a {
+  @apply text-sky-600;
+}
