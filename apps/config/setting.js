@@ -9,6 +9,6 @@ export const SITE_TAG = process.env.NEXT_PUBLIC_SITE_TAG || "Your Tag";
 export const SITE_DESC =
   process.env.NEXT_PUBLIC_SITE_DESC || "Your Description";
 export const SITE_INDEX =
-  process.env.NEXT_PUBLIC_SITE_INDEX == "true" ? true : false || true;
+  process.env.NEXT_PUBLIC_SITE_INDEX == "true" ? true : false;
 export const SITE_IMG_LOADER = process.env.NEXT_PUBLIC_IMG_LOADER || "default";
 export const SITE_API_URL = process.env.NEXT_API_URL || "";
